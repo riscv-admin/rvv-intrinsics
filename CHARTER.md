@@ -1,37 +1,29 @@
-# {{ New Group Name }} {{ New Group Type }} Charter
+# RISC-V Vector C intrinsics TG Charter
 
-## Directions for creating a charter
-The information in this file should be created as part of the group formation and approved by your sponsoring group.  See the [Chairs Best Practices policy](https://docs.google.com/document/d/1rtXskVd7YyFq74tQ2OrInyM_-OQa228R5UZs5Pm3Vz0/) for more details.
+The RISC-V Vector C intrinsics TG will aim to work towards the v1.0.0 of the RISC-V Vector C intrinsics.
 
-A good Task Group (TG) charter describes how it achieves filling in a gap defined by the Special Interest Group (SIG) or Committee that spawned it (directly or dotted line). It lists the specific small set of  deliverables it will deliver.
+The RISC-V Vector intrinsics are a set of C intrinsics (i.e. a C API) that are provided by compilers in order to provide a C programming environment for the RISC-V vector extensions. The resulting compiler-independent specification ensures portability of code.
 
-A SIG is an extension of a Committee, in that its only deliverables are strategy, gaps, and prioritizations, and helping spawn other SIGs or TGs to fill the gaps. A good SIG charter spells out the small set of topic areas their strategy will address along with its responsibilities as laid out in this bullet.
+The target of the v1.0.0 release includes the following item.
 
-In the next section is a raw template.  Delete the section header and substitute appropriate text in for [ALL CAPS ITEMS AS DESCRIBED].
+ * Improve the RISC-V Vector C intrinsics
+ * Clarify the RISC-V Vector C intrinsics
+ * Provide public resource for more enablement
 
-**Delete this whole section when done.**
+Improvement to the RISC-V Vector C intrinsics is expected to achieve the following items.
 
-## Raw template
+ * Achieve functional completeness in the sense of leveraging the RISC-V Vector Extension through the intrinsics
+ * Gather engagement from the GCC and LLVM community to ensure the resulting specification will address the needs of compiler infrastructure and ensure maintainability in upstream
+ * Evaluate the existing intrinsics and co-work with the GCC and LLVM community to provide usable intrinsics
+ * Engage with user communities (HPC SIG, ML SIG, Toolchains SIG, Managed Runtimes SIG, and Vector SIG) to ensure addressing the needs of consumers of the intrinsicsz
 
-The {{ New Group Name }} {{ New Group Type }} will [OVERALL MISSION STATEMENT in 2-3 
-SENTENCES]
+Clarification to the RISC-V Vector C intrinsics is expected to achieve the following item.
 
-[THIS PARAGRAPH IS OPTIONAL]
-The [TERM 1] IS [DEFINITION 1].  [EXPLANATION  OF IMPORTANCE OF TERM 1]. [MORE TERMS AND DEFINITIONS AS NEEDED]
+ * Provide user guidance to the intrinsics specification
 
-[BACKGROUND INFORMATION ABOUT RELEVANCE OF GROUP/TECHNOLOGY]
+The public resource for more enablement aims to achieve the following items.
 
-The {{ New Group Name }} {{ New Group Type }} will [DELIVER SOMETHING] [WITH THESE ATTRIBUTES]:
+ * Provide resource for users to extend the set of intrinsics
+ * Provide resource to enable other languages to build RISC-V Vector intrinsics
 
- - [ATTRIBUTE 1]
- - [ATTRIBUTE 2]
- - [... AS NEEDED]
-
-[THIS PARAGRAPH AND LIST ARE OPTIONAL, ESPECIALLY IF THE LIST IS EMPTY]
-The following items are presently not planned to be delivered as part of this work, but may be considered in future versions:
-
- 1. [FEATURE 1]
- 1. [FEATURE 2]
- 1. [... AS NEEDED]
-
-To achieve its goals, the {{ New Group Name }} {{ New Group Type }}, will interact with the following groups: [GROUP NAME 1] [GROUP TYPE 1], [GROUP NAME 2] [GROUP TYPE 2], [...] and [GROUP NAME N] [GROUP TYPE N]. 
+To achieve its goals, the RISC-V Vector C intrinsics TG, will interact with the following groups: High-Performance Computing SIG, Machine Learning SIG, Toolchains & Runtime SIG, Managed Runtimes SIG, and Vector SIG.
